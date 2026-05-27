@@ -17,7 +17,6 @@ static std::vector<float> make_tone(int sample_rate, float duration_s,
     for (float f : freqs)
         for (int n = 0; n < N; ++n)
             audio[n] += std::sin(2.f * PI * f * n / sample_rate);
-    // Normalise
     float mx = *std::max_element(audio.begin(), audio.end());
     if (mx > 0.f) for (auto& s : audio) s /= mx;
     return audio;

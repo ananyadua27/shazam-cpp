@@ -27,7 +27,7 @@ Searching …
 ```
 
 ## How It Works
-### 1. FFT — O(N log N) Spectrogram
+### 1. FFT, O(N log N) Spectrogram
 
 The core transform is a Cooley-Tukey radix-2 Decimation-in-Time FFT,
 derived from the standard EE signals decomposition:
