@@ -20,10 +20,10 @@ Fingerprinting …
 Fingerprints:  9,814
 Searching …
 
-✓  Matched: "Everything Goes On"
-   Votes:      347
-   Confidence: 0.0354
-   Elapsed:    0.38 s
+Matched: "Everything Goes On"
+Votes:      347
+Confidence: 0.0354
+Elapsed:    0.38 s
 ```
 
 ## How It Works
